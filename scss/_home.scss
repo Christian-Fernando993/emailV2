@@ -1,0 +1,590 @@
+.s-hero {
+  .container {
+    padding-top: 4.7rem;
+    padding-bottom: 4.7rem;
+    background-color: #f6f8fa;
+
+    .logo {
+      max-width: 204px;
+      margin: 0 auto;
+    }
+  }
+
+  @media (max-width: 400px) {
+    .container {
+      .title {
+        h1 {
+          font-size: 34px;
+          line-height: normal;
+        }
+      }
+    }
+  }
+}
+
+.s-hero-table {
+  .container {
+    padding-top: 47px;
+    padding-bottom: 47px;
+
+    .text {
+      .title {
+        h1 {
+          color: #000;
+          text-align: center;
+          font-family: "Inter", sans-serif;
+          font-size: 40px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: 65px;
+          margin-bottom: 12px;
+        }
+      }
+
+      .sub-menu {
+        h2 {
+          color: #000;
+          text-align: center;
+          font-family: "Inter", sans-serif;
+          font-size: 32px;
+          font-style: normal;
+          font-weight: 700;
+          margin-bottom: 20px;
+        }
+
+        p {
+          color: #000;
+          text-align: center;
+          font-family: "Inter", sans-serif;
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 300;
+          line-height: 23px;
+          margin-bottom: 32px;
+        }
+      }
+    }
+
+    .box {
+      display: flex;
+      justify-content: space-between;
+
+      .total-vendas {
+        width: 230px;
+        border-radius: 12px;
+        background-color: #5a78ff;
+        padding: 10px 10px;
+        cursor: pointer;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        
+        h3 {
+          color: #fff;
+          text-align: center;
+          font-family: "Inter", sans-serif;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 700;
+        }
+
+        p {
+          color: #fff;
+          font-family: "Inter", sans-serif;
+          text-align: center;
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 300;
+          line-height: 23px;
+          margin-top: 10px;
+        }
+      }
+
+      .total-ativas {
+        width: 230px;
+        height: 130px;
+        border-radius: 12px;
+        background-color: #5a78ff;
+        padding: 10px 10px;
+        cursor: pointer;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+
+        
+        h3 {
+            color: #fff;
+            text-align: center;
+            font-family: "Inter", sans-serif;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 700;
+        }
+
+        p {
+          color: #fff;
+          font-family: "Inter", sans-serif;
+          text-align: center;
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 300;
+          line-height: 23px;
+          margin-top: 10px;
+        }
+      }
+    }
+
+    .status {
+      .disponivel {
+        .scroll-lateral {
+          .table {
+            background-color: transparent;
+            border-collapse: transparent;
+            border-spacing: 0;
+            font-family: "Inter", sans-serif;
+            width: 100%;
+            margin-bottom: 5px;
+            .title-tabela {
+                font-size: 18px;
+            }
+            th,
+            td {
+              padding: 15px 15px;
+              text-align: center;
+              vertical-align: middle;
+              border: #d0d5d8 solid 1px;
+            }
+
+            thead {
+              tr {
+                th {
+                  font-weight: 400;
+                  background-color: #5a78ff;
+                  color: #fff;
+                  font-size: 15px;
+                  text-align: center;
+                }
+              }
+            }
+
+            tbody {
+              background-color: #f8f8f8;
+
+              tr {
+                td {
+                  font-size: 14px;
+                }
+              }
+            }
+          }
+        }
+
+        .saldo-disponivel,
+        .saldo-pendente {
+          text-align: right;
+          margin-bottom: 25px;
+
+          p,
+          span {
+            color: #000;
+            font-family: "Inter", sans-serif;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 700;
+            display: inline;
+          }
+        }
+      }
+
+      .pendente {
+        .scroll-lateral {
+          .table {
+            background-color: transparent;
+            border-collapse: transparent;
+            border-spacing: 0;
+            font-family: "Inter", sans-serif;
+            width: 100%;
+            margin-bottom: 5px;
+            .title-tabela {
+                font-size: 18px;
+            }
+            th,
+            td {
+              padding: 15px 15px;
+              text-align: center;
+              vertical-align: middle;
+              border: #d0d5d8 solid 1px;
+            }
+
+            thead {
+              tr {
+                th {
+                  font-weight: 400;
+                  background-color: #5a78ff;
+                  color: #fff;
+                  font-size: 15px;
+                  text-align: center;
+                }
+              }
+            }
+
+            tbody {
+              background-color: #f8f8f8;
+
+              tr {
+                td {
+                  font-size: 14px;
+                }
+              }
+            }
+          }
+        }
+
+        .saldo-disponivel,
+        .saldo-pendente {
+          text-align: right;
+          margin-bottom: 20px;
+
+          p,
+          span {
+            color: #000;
+            font-family: "Inter", sans-serif;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 700;
+            display: inline;
+          }
+        }
+      }
+    }
+
+    p {
+      color: #000;
+      font-family: "Inter", sans-serif;
+      text-align: center;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 300;
+      line-height: 23px;
+      margin-top: 32px;
+    }
+  }
+
+  @media (max-width: 550px) {
+    .container {
+      justify-content: space-between;
+
+      .box {
+        .total-vendas {
+          width: 180px;
+          height: 146px;
+          h3 {
+            font-size: 15px;
+          }
+        }
+
+        .total-ativas {
+          width: 180px;
+          height: 146px;
+          h3 {
+            font-size: 15px;
+          }
+        }
+      }
+
+      .status {
+        .disponivel {
+          .scroll-lateral {
+            .table-responsive {
+              td,
+              th {
+                padding: 5px 5px;
+                font-size: 13px;
+              }
+
+              td {
+                padding: 5px;
+              }
+            }
+          }
+        }
+
+        .pendente {
+          .scroll-lateral {
+            .table-responsive {
+              td,
+              th {
+                padding: 5px 5px;
+                font-size: 13px;
+              }
+
+              td {
+                padding: 5px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  @media (max-width: 425px) {
+    .container {
+      justify-content: space-between;
+
+      .box {
+        .total-vendas {
+          max-width: 130px;
+
+          h3 {
+            font-size: 14px;
+          }
+        }
+
+        .total-ativas {
+          max-width: 130px;
+
+          h3 {
+            font-size: 14px;
+          }
+        }
+      }
+
+      .status {
+        .disponivel {
+          .scroll-lateral {
+            .table-responsive {
+              .title-tabela{
+                font-size: 16px;
+              }
+              thead{
+                tr{
+                  th{
+                    font-size: 14px;
+                  }
+                }
+              }
+              td,
+              th {
+                // padding: 5px 5px;
+                font-size: 12px;
+              }
+
+              td {
+                padding: 5px;
+              }
+            }
+          }
+        }
+
+        .pendente {
+          .scroll-lateral {
+            .table-responsive {
+              .title-tabela{
+                font-size: 16px;
+              }
+              thead{
+                tr{
+                  th{
+                    font-size: 14px;
+                  }
+                }
+              }
+              td,
+              th {
+                // padding: 5px 5px;
+                font-size: 12px;
+              }
+
+              td {
+                padding: 5px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  @media (max-width: 400px) {
+    .container {
+      .box{
+        margin-bottom: 10px;
+        .total-vendas{
+          height: 118px;
+          padding: 8px 8px;
+          h3{
+            font-size: 12px;
+            margin-bottom: 10px;
+          }
+          p{
+            font-size: 10px;
+            margin-top: 0;
+          }
+        }
+        .total-ativas{
+          height: 118px;
+          padding: 8px 8px;
+          h3{
+            font-size: 12px;
+          }
+          p{
+            font-size: 10px;
+
+          }
+        }
+      }
+
+      .disponivel{
+        .scroll-lateral{
+          .table-responsive {
+            td,
+            th {
+              padding: 2px 2px;
+              font-size: 11px !important;
+            }
+    
+
+          }
+        }
+        .saldo-disponivel,
+        .saldo-pendente {
+          p,
+          span {
+            font-size: 14px !important;
+          }
+        }
+      }
+      .pendente{
+        .scroll-lateral{
+          .table-responsive {
+            td,
+            th {
+              padding: 2px 2px;
+              font-size: 11px !important;
+            }
+    
+
+          }
+        }
+        .saldo-disponivel,
+        .saldo-pendente {
+          p,
+          span {
+            font-size: 14px !important;
+          }
+        }
+      }
+    }
+  }
+}
+
+.s-hero-nota {
+  .container {
+    padding-top: 47px;
+    padding-bottom: 47px;
+    background-color: #f6f8fa;
+
+    h2 {
+      color: #000;
+      text-align: center;
+      font-family: "Inter", sans-serif;
+      font-size: 32px;
+      font-style: normal;
+      font-weight: 700;
+      margin-bottom: 20px;
+    }
+
+    p {
+      color: #000;
+      text-align: center;
+      font-family: "Inter", sans-serif;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 300;
+      line-height: 23px;
+    }
+  }
+}
+
+.footer {
+  .container {
+    background-color: #5a78ff;
+    padding-top: 47px;
+    padding-bottom: 47px;
+
+    .txt-footer {
+      p {
+        display: flex;
+        justify-content: center;
+        color: #fff;
+        font-family: "Inter", sans-serif;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 23px;
+        margin-bottom: 30px;
+      }
+    }
+
+    .icons {
+      display: flex;
+      text-align: center;
+      justify-content: center;
+
+      span {
+        color: #fff;
+        font-family: "Inter", sans-serif;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 23px;
+      }
+
+      ul {
+        display: flex;
+        align-items: center;
+        margin-left: 30px;
+
+        li {
+          &:not(:first-child) {
+            margin-left: 30px;
+          }
+
+          a {
+            img {
+              width: 100%;
+              max-width: 20px;
+              height: 20px;
+              opacity: 0.7;
+              transition: opacity 0.3s ease;
+
+              &:hover {
+                opacity: 1;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  @media (max-width: 400px) {
+    .container {
+      .txt-footer {
+        text-align: center;
+      }
+
+      .icons {
+        display: block;
+
+        ul {
+          margin: 0 auto;
+          margin-top: 30px;
+          display: flex;
+          justify-content: center;
+        }
+      }
+    }
+  }
+}
